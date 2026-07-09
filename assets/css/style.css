@@ -86,7 +86,7 @@
     text-align: center;
     font-size: 35px;
 }
-.speakers-main{
+.speakers-main, .venue-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
@@ -167,7 +167,7 @@
     background-color: #0D1B2A;
     color: var(--white);
 }
-.pro-card p, .pro-card li{
+.pro-card p, .pro-card li, .sub-heading{
     color: #1D4ED8;
 }
 .pro-card li span{
@@ -179,4 +179,38 @@
 .pro-btn{
     color: var(--white);
     background-color: var(--blue);
+}
+/* ======venue===== */
+.sub-heading{
+    font-weight: 800;
+    font-size: 14px;
+}
+.venue-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 15px 0 20px 0;
+}
+.venue-description{
+    color: gray;
+    font-size: 17px;
+    line-height: 20px;
+}
+.info-card{
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    gap: 30px;
+    background-color: #F8FAFC;
+}
+.info-text p{
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.venue-map img{
+    width: 100%;
+    height: 60%;
+    margin-top: 170px;
 }

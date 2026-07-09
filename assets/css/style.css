@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: Open Sans;
 }
 :root{
     --white: #FFFFFF;
@@ -64,7 +66,7 @@
 
 }
 .banner-content h1{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -120,7 +122,7 @@
     margin-bottom: 30px;
 }
 .price-header h1{
-    font-weight: 900;
+    font-weight: 800;
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -167,7 +169,7 @@
     background-color: #0D1B2A;
     color: var(--white);
 }
-.pro-card p, .pro-card li, .sub-heading{
+.pro-card p, .pro-card li, .sub-heading, .info-icon i{
     color: #1D4ED8;
 }
 .pro-card li span{
@@ -214,3 +216,29 @@
     height: 60%;
     margin-top: 170px;
 }
+/* ====footer===== */
+.footer-main {
+  background-color: #0b1528; 
+  color: #707e94;          
+  padding: 30px 20px;         
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links a {
+  color: #707e94;
+  text-decoration: none;
+  margin-left: 20px;  
+  transition: color 0.3s ease;
+}
+.footer-links a:hover {
+  color: #a0aec0;
+}
+
+ 

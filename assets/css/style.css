@@ -110,3 +110,73 @@
 .spekers-child-card p{
     color: #897878;
 }
+/* =======pricing start====  */
+#pricing{
+    width: 80%;
+    margin: 0 auto;
+}
+.price-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.price-header h1{
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.price-header p, .pricing-features li, .upper-part h6, .upper-part p{
+    font-size: 14px;
+    color: gray;
+}
+.pricing-main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.card-price{
+    border: 1px solid rgb(212, 200, 200);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+.upper-part{
+    border-bottom: 1px solid rgb(196, 186, 186);
+    margin-bottom: 20px;
+}
+.upper-part p{
+    margin-bottom: 16px;
+}
+.pricing-features li{
+    line-height: 20px;
+}
+.pricing-btn{
+    border: 1px solid var(--blue);
+    padding: 8px 100px;
+    background: transparent;
+    color: var(--blue);
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 16px auto;   
+}
+.contact-btn{
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+.pro-card{
+    background-color: #0D1B2A;
+    color: var(--white);
+}
+.pro-card p, .pro-card li{
+    color: #1D4ED8;
+}
+.pro-card li span{
+    color: rgb(217, 214, 208);
+}
+.pro-card .pro-cls{
+    color: var(--blue);
+}
+.pro-btn{
+    color: var(--white);
+    background-color: var(--blue);
+}

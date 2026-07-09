@@ -25,6 +25,7 @@
     margin: 0 auto;
     align-items: center;
     padding: 12px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .nav-logo img{
     height: 35px;
@@ -40,4 +41,41 @@
     padding: 0 10px;
 }
 /* =====nav end===== */
-  
+/* ===banner start=====  */
+#banner{
+    background-image: linear-gradient(
+        to bottom left,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.05) 35%,
+        rgba(0, 0, 0, 0.8) 65%,
+        rgba(0, 0, 0, 0.92) 100%
+    ), url(/assets/image/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+}
+.banner-content{
+    color: var(--white);
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+
+}
+.banner-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 130px;
+}
+.banner-btn{
+    font-size: 18px;
+    padding: 14px 36px;
+    font-weight: 600;
+}

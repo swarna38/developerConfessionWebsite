@@ -50,7 +50,7 @@
         rgba(0, 0, 0, 0.05) 35%,
         rgba(0, 0, 0, 0.8) 65%,
         rgba(0, 0, 0, 0.92) 100%
-    ), url(/assets/image/banner.jpg);
+    ), url(../image/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@
     margin-bottom: 20px;
 }
 .banner-content p{
-    font-size: 19px;
+    font-size: 16px;
     line-height: 24px;
     margin-bottom: 130px;
 }
